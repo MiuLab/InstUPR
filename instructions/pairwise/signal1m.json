@@ -1,0 +1,7 @@
+{
+    "name": "",
+    "instruction": "Query: {question}\n\nContext A: {context}\n\nContext B: {other_context}\n\nWhich context is more relevant to the query (A or B)?",
+    "options": ["▁A", "▁B"],
+    "generate": false,
+    "encoder_max_length": 512
+}

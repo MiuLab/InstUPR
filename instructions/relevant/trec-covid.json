@@ -1,0 +1,9 @@
+{
+    "name": "answerable.2",
+    "instruction": "Given a query and a context, predict whether the context is relevant to the query by answering either 'Yes' or 'No'.\nQuery: {question}\nContext: {context}",
+    "options": [
+        "▁yes",
+        "▁no"
+    ],
+    "generate": false
+}

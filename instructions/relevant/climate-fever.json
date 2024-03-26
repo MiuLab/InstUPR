@@ -1,0 +1,9 @@
+{
+    "name": "answerable.2",
+    "instruction": "Given a context and a claim, predict whether the claim can be verified by the context by answering either 'Yes' or 'No'.\nClaim: {question}\nContext: {context}",
+    "options": [
+        "▁yes",
+        "▁no"
+    ],
+    "generate": false
+}

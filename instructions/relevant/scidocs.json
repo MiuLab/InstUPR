@@ -1,0 +1,9 @@
+{
+    "name": "answerable.2",
+    "instruction": "Given two articles, predict whether Article 1 is relevant to Article 2 by answering either 'Yes' or 'No'.\nArticle 1: {question}\nArticle 2: {context}",
+    "options": [
+        "▁yes",
+        "▁no"
+    ],
+    "generate": false
+}

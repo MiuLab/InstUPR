@@ -1,0 +1,6 @@
+{
+    "name": "1-5.2.robust04",
+    "instruction": "Rate the relevance and similarity of the query and the entity with an integer score from 1 to 5, where 1 means \"completely irrelevant or nonsensical\" and 5 means \"completely relevant\"\n\nQuery: {question}\n\nEntity: {context}\n\nScore:",
+    "options": ["▁1", "▁2", "▁3", "▁4", "▁5"],
+    "generate": false
+}

@@ -1,0 +1,9 @@
+{
+    "name": "answerable.2",
+    "instruction": "Given a question and a context, predict whether the context contains an answer to the question by answering either 'Yes' or 'No'.\nQuestion: {question}\nContext: {context}",
+    "options": [
+        "▁yes",
+        "▁no"
+    ],
+    "generate": false
+}
