@@ -3,6 +3,8 @@
 [[Paper]](https://arxiv.org/abs/2403.16435)
 
 This repository contains the source code of our paper "InstUPR: Instruction-based Unsupervised Passage Reranking with Large Language Models".
+<img width="1281" alt="image" src="https://github.com/MiuLab/InstUPR/assets/11765276/7274e398-7e83-4f5f-aa93-0cae2dba256c">
+
 
 ## Requirements
 * Python >= 3.8
@@ -28,6 +30,8 @@ You can also download the preprocessed data from our [Google Drive (7.7GB)](http
 ## Run InstUPR
 
 ### Pointwise Reranking
+<img width="450" alt="image" src="https://github.com/MiuLab/InstUPR/assets/11765276/b57c00fc-6e4e-4e76-9d90-5f019defef4f">
+
 After running BM25 retrieval, you can perform pointwise reranking on the top-100 passages using InstUPR with the following command:
 ```bash
 bash run-pointwise.sh
@@ -47,6 +51,8 @@ python3 rerank_score.py \
 This command will evaluate the reranking results and save the reranked results in the output file.
 
 ### Pairwise Reranking
+<img width="450" alt="image" src="https://github.com/MiuLab/InstUPR/assets/11765276/f6e5e1e1-2c60-408b-8538-8dfbc41ff8e3">
+
 After running pointwise reranking, you can perform pairwise reranking to the reranked passages using InstUPR with the following command:
 ```bash
 bash run-pairwise.sh
@@ -55,6 +61,13 @@ This script will perform pairwise reranking on the reranked passages for each qu
 
 #### Evaluation
 Evaluation is the same as the pointwise reranking evaluation.
+
+
+## Performance
+![image](https://github.com/MiuLab/InstUPR/assets/11765276/f2f20e79-25d4-4430-bfc6-9135399adb9a)
+
+With our source code, you should be able to reproduce the results shown in the table.
+InstUPR outperforms unsupervised reranker (UPR) and specialized supervised rerankers (TART-rerank), and performs comparably to the state-of-the-art reranker MonoT5-3B, while using FLAN-T5-xl which is also a 3B model. 
 
 
 ## Reference
