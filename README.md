@@ -3,6 +3,9 @@
 [[Paper]](https://arxiv.org/abs/2403.16435)
 
 This repository contains the source code of our paper "InstUPR: Instruction-based Unsupervised Passage Reranking with Large Language Models".
+We propose InstUPR, a framework for effective passage reranking without requiring any training data for reranking.
+InstUPR, based on flan-t5-xl, outperforms the best unsupervised method, i.e., UPR, and supervised methods, e.g., TART-rerank. It also achieves identical performance to the state-of-the-art supervised method Mono-T5.
+The source code released here enables user to reproduce all experimental results by following the provided scripts.
 <img width="1281" alt="image" src="https://github.com/MiuLab/InstUPR/assets/11765276/7274e398-7e83-4f5f-aa93-0cae2dba256c">
 
 
